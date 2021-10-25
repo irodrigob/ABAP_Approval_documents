@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>APD - Controlador llamadas UI5</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>ADD_NOTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añade una nota</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>APPROVE_DOCUMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Aprobación del documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>GET_APPS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene las aplicaciones</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>GET_APPS_KPI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene los docs. pendientes para el contador de las tiles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>GET_DETAIL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve el detalle de un número de documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>GET_LIST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve listado de documentos pendientes aprobar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>GET_NOTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Listado de notas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>GET_PDF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve la URL del PDF del documento pasado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>GET_USER_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene los datos del usuario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>MO_CX_APD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>APD - Excepciones</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_UI_CONTROLLER</CLSNAME>
+     <CMPNAME>REJECT_DOCUMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Rechazo del documento</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_APD_APPS</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>APD - Aplicaciones de aprobación</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>CALL_FROM_ZAPD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve si se llama desde ZAPD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>CHANGE_URL_INTERNAL_2_CLOUD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cambia la URL de local a publica</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>CONVERT_FCAT_2_OUTPUT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte el catalogo de campos al formato de salida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>CONVERT_ITAB_2_ROW_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte datos tabla interna a datos en fila/columna</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>CONVERT_STRUC_2_ROW_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte la estructura a datos en fila/columna</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_ACTIONS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve las acciones</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_APPS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve las aplicaciones</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_CLASS_CONTROLER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene la clase controladora de la pantalla</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_ID_VIEW_FIELDS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve la vista de campo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve un objeto aplicación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_KPI_ALL_APPS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve los KPIs de todas las apps</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_URL_FROM_BINARY_CONTENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene la URL a partir del contenido en binario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>GET_VIEW_FCAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve el catalogo de campos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>MV_APP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>APD - Aplicación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>MV_LANGU</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Campo de sistema ABAP: Clave de idioma de entorno de texto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>MV_USER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Usuario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>READ_APP_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee los datos de las aplicación por parámetros</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>SEND_MASSIVE_NOTIF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Envio masivo de notificaciones</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APPS</CLSNAME>
+     <CMPNAME>SEND_NOTIFICATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Envio las notificaciones</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

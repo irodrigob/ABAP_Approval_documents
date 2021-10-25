@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZAPD_E_ICONO</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZAPD_D_ICONO</DOMNAME>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>APD - Icono</DDTEXT>
+    <REPTEXT>Icono</REPTEXT>
+    <SCRTEXT_S>Icono</SCRTEXT_S>
+    <SCRTEXT_M>Icono</SCRTEXT_M>
+    <SCRTEXT_L>Icono</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>INT - Icon</DDTEXT>
+     <REPTEXT>Icon</REPTEXT>
+     <SCRTEXT_S>Icon</SCRTEXT_S>
+     <SCRTEXT_M>Icon</SCRTEXT_M>
+     <SCRTEXT_L>Icon</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

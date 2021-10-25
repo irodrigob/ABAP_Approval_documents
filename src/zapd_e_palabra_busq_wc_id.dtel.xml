@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZAPD_E_PALABRA_BUSQ_WC_ID</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZAPD_D_PALABRA_BUSQ_WC_ID</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>APD - Palabra busqueda para el WC ID</DDTEXT>
+    <REPTEXT>Palabra Busq.</REPTEXT>
+    <SCRTEXT_S>PalabraBus</SCRTEXT_S>
+    <SCRTEXT_M>Palabra Busq.</SCRTEXT_M>
+    <SCRTEXT_L>Palabra Busqueda</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>APD - Search word for WC ID</DDTEXT>
+     <REPTEXT>Search Word</REPTEXT>
+     <SCRTEXT_S>Search Wor</SCRTEXT_S>
+     <SCRTEXT_M>Search Word</SCRTEXT_M>
+     <SCRTEXT_L>Search Word</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

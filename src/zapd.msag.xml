@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAPD</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Aprobación de documentos</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Token no válido.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>La aplicación &amp;1 no tiene clase controladora informada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No hay aplicaciones configuradas.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>El pedido &amp; no existe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No es posible generar PDF para el pedido &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error al obtener el documento</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Pedido &amp; aprobado correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No se han encontrado pedidos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No se ha podido rechazar el pedido &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Rechazo &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>El pedido &amp; ha sido rechazado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>La factura no existe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Error al aprobar la factura &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Factura &amp; aprobada correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Nota añadida correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Factura &amp; rechazada correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Pedido(s) aprobado(s) correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>No se han podido aprobar todos los pedidos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Factura(s) aprobada(s) correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>No se han podido aprobar todas las facturas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Tiene documentos pendientes de aprobar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Pedido(s) rechazado(s) correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZAPD</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>No se han podido rechazar todos los pedidos</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

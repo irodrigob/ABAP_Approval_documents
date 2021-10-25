@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZAPD_E_CLASE_CONTROL</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>SEOCLSNAME</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>APD - Clase controladora</DDTEXT>
+    <REPTEXT>Clase Control.</REPTEXT>
+    <SCRTEXT_S>Cls.Ctrla</SCRTEXT_S>
+    <SCRTEXT_M>Clase Control.</SCRTEXT_M>
+    <SCRTEXT_L>Clase controladora</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>INT - Controller class</DDTEXT>
+     <REPTEXT>Control. Class</REPTEXT>
+     <SCRTEXT_S>Ctrl.Cls.</SCRTEXT_S>
+     <SCRTEXT_M>Control. Class</SCRTEXT_M>
+     <SCRTEXT_L>Controller class</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

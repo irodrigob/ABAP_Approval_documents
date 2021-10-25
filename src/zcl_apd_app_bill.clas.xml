@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>APD - Aplicación pedidos de compra</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>T01</KEY>
+     <ENTRY>d</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T02</KEY>
+     <ENTRY>hace</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>T03</KEY>
+     <ENTRY>h</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>T01</KEY>
+       <ENTRY>d</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T02</KEY>
+       <ENTRY>ago</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>T03</KEY>
+       <ENTRY>d</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>CHANGE_USER_WC_STEP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cambio de usuario de paso del webcycle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>COMPLETE_HEADER_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Completar datos de cabecera</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>CONVERT_STRING_2_NOTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte un string a formato nota</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>CONVERT_TEXT_DATE_TIME</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte a texto la diferencia de fecha y hora</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>DEQUEUE_INVOICE_GUID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Desbloquea una factura</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>ENQUEUE_INVOICE_GUID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Bloquea una factura</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>GET_ADDITIONAL_INFO_DETAIL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Información adicional para el detalle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>GET_FULLNAME_USER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve el nombre completo de un usuario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>GET_INV_DETAIL_DATA_BY_ID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de datos de detalle de factura por id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>GET_INV_HEADER_DATA_BY_ID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de datos de cabecera de factura por id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>GET_INV_HEADER_DATA_BY_USER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de datos de cabecera de factura asignadas al usuario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>IS_USER_APPROVER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>El usuario es aprobador</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>READ_ITEMS_FI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de las posiciones de finanzas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>READ_ITEMS_MM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de las posiciones de material</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>READ_WEBCYCLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de los datos del webcycle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>STATIC_SEND_NOTIF_APPR_PROC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Envio de notificación en el proceso de aprobación/rechazo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_BILL</CLSNAME>
+     <CMPNAME>STATIC_SEND_NOTIF_START_PROC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Envio de notificación cuando se inicia el proceso</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

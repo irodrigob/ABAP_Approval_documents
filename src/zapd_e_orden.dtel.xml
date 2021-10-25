@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZAPD_E_ORDEN</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZAPD_D_ORDEN</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>APD - Orden</DDTEXT>
+    <REPTEXT>Orden</REPTEXT>
+    <SCRTEXT_S>Orden</SCRTEXT_S>
+    <SCRTEXT_M>Orden</SCRTEXT_M>
+    <SCRTEXT_L>Orden</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>INT - Group order</DDTEXT>
+     <REPTEXT>Group Order</REPTEXT>
+     <SCRTEXT_S>GroupOrd.</SCRTEXT_S>
+     <SCRTEXT_M>Group Order</SCRTEXT_M>
+     <SCRTEXT_L>Group Order</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

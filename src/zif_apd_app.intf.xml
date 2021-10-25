@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_APD_APP</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>APD - Aplicaciones</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>ADD_NOTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añade una nota</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>APPROVE_DOCUMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Aprobación del documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_APPS_KPI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera el número de documentos pendientes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_APP_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve información sobre la aplicación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_BACKUPS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera los usuarios backup</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_DETAIL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve e detalle del documento pasado por parámetro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_LIST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve listado de documentos pendientes aprobar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_MY_BACKUPS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve los backups asignados por el usuario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_NOTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Listado de notas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>GET_PDF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve la URL del PDF del documento pasado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>REJECT_DOCUMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Rechazo del documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_APP</CLSNAME>
+     <CMPNAME>SEND_NOTIFICATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Envio de notificaciones</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

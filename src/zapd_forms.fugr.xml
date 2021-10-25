@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>APD - Funciones formularios</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZAPD_FORMSF01</SOBJ_NAME>
+    <SOBJ_NAME>LZAPD_FORMSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZAPD_FORMS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZAPD_PO_ORDER_FORM</FUNCNAME>
+     <SHORT_TEXT>APD - Formulario pedido compras</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_KSCHL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>NA_KSCHL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_EBELN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LANGU</PARAMETER>
+       <DEFAULT>SY-LANGU</DEFAULT>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SYLANGU</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ENT_SCREEN</PARAMETER>
+       <DEFAULT>ABAP_FALSE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SAP_BOOL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_CONTENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XSTRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_NUMBYTES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_KSCHL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Clase de mensaje</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_EBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Pedido</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LANGU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Clave de idioma del entorno de texto actual</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ENT_SCREEN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Previsualizar</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_CONTENT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_NUMBYTES</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

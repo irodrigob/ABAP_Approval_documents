@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_APD_DATA</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>APD - Parámetros fijos</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_DATA</CLSNAME>
+     <CMPNAME>CV_APP_UI5</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>App UI5</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_DATA</CLSNAME>
+     <CMPNAME>CV_MSG_ID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clase de mensajes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_DATA</CLSNAME>
+     <CMPNAME>CV_MSG_TYPE_DUMP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo mensaje: S Success, E Error, W Warning, I Info A Abort</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_DATA</CLSNAME>
+     <CMPNAME>CV_MSG_TYPE_ERROR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo mensaje: Error</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_DATA</CLSNAME>
+     <CMPNAME>CV_MSG_TYPE_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo mensaje: Informativo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_DATA</CLSNAME>
+     <CMPNAME>CV_MSG_TYPE_SUCCESS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo mensaje: Success</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_APD_DATA</CLSNAME>
+     <CMPNAME>CV_MSG_TYPE_WARNING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo mensaje: Warning</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

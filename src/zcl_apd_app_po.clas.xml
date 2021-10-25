@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>APD - Aplicación pedidos de compra</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>CALL_REL_ACTION_FROM_BAPI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determina si el proceso de liberacion se llama vía BAPI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_ADDRESS_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de dirección</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_HANDLER_HEADER_FROM_BADI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene el handler de la cabecera del pedido desde la exit/b</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_HANDLER_HEADER_FROM_PO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene el handler de la cabecera del pedido a partir de su</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_PURCHASE_DETAIL_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos del detalle del pedido</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_PURCHASE_HEADER_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de cabecera del pedido</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_RELEASE_CODES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtienen los códigos de liberación de usuario y backups</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_RELEASE_INFO_FROM_HANDLER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve los datos de liberación del handler</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>GET_RELEASE_REQ</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene los requisitos de liberación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>IS_PO_INVERSION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve si el pedido es de inversion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>IS_PO_SERVICE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve si el pedido es de servicios</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>READ_EKET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>lectura de repartos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>READ_EKKN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de imputaciones</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>READ_EKKO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>lectura de la ekko</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>READ_EKPO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>lectura de la ekpo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>READ_MAKT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura materiales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>SEND_MAIL_REJECT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Envio mail de rechazo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_APD_APP_PO</CLSNAME>
+     <CMPNAME>STATIC_REL_ACTION_FROM_BAPI</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Proceso desde la bapi de liberación</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
